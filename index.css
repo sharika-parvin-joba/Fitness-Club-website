@@ -2,7 +2,7 @@
    --navbar:rgb(95, 83, 83); 
    --section:rgb(0, 0, 0);
    --para-clr:rgb(187, 179, 179);
-   --clr-1:rgb(70, 214, 70);
+   --clr-1:rgb(18, 167, 18);
    --clr-2:rgb(25, 156, 25);
 }
 .nagbar-bg{
@@ -194,7 +194,7 @@ background-color: var(--clr-2);
 }
 /* INTRO */
 .intro-row-div{
-    padding: 100px 0px;
+    padding: 50px 0px;
 }
 .intro-logo{
     position: relative;
@@ -208,7 +208,7 @@ translate: 50px;
 transition: 1s;
 }
 .intro-para{
-    position: absolute;
+    /* position: absolute; */
     text-shadow: 0 0 3px #3b3131, 0 0 5px #0b9c4d;
     bottom: 5%;
     font-size: 40px;
@@ -216,9 +216,10 @@ transition: 1s;
     color: #ffff;
     margin-bottom: 0;
 }
-.intro-para span{
+.fitclub{
     font-weight: bolder;
     font-size: 60px;
+    color: #ffff;
 }
 .intro-section{
     background-color:var(--section) ;
@@ -500,6 +501,128 @@ padding: 100px 0px;
     object-fit: cover;
   }
 
+  /* testimonial */
+  .testimonial{
+    background-color: var(--section);
+  }
+  .testi-head{
+    padding-top: 100px;
+    color: #c5bfbf;
+  }
+  .testi-div{
+    padding: 100px 0px;
+  }
+  .testi-icon{
+    font-size: 50px;
+    color: var(--clr-1);
+  }
+  .tes-p{
+    font-size: 30px;
+    color:var(--para-clr);
+  }
+  .name{
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+  }
+.slide2{
+    background: #000000;
+    padding:0px 100px;
+}
+/* get-membership */
+.get-membership{
+    padding: 100px 0px;
+    /* background-image: url('./images/members.jpg');
+    filter: brightness(20%); */
+    background-color: #222121;
+}
+.g-m-para{
+    font-size: 40px;
+    font-weight: bold;
+}
+.g-m-para2{
+    font-size: 30px;
+    font-weight: 700;
+    color:#fff;
+}
+.member-icon{
+    font-size: 60px;
+    color:var(--para-clr);
+    padding-bottom: 10px;
+}
+.member-icon:hover{
+    color:#fff;
+}
+.b-text{
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    padding-top: 5px;
+}
+.b-text-desc{
+    font-size: 16px;
+    color:var(--para-clr);
+    padding: 10px;
+}
+.email-span{
+    background-color: var(--clr-1);
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+}
+.email-span:hover{
+    background-color: var(--clr-1);
+}
+.email{
+    background-color: transparent;
+}
+/* footer */
+.footer{
+    background-color: var(--section);
+    /* padding: 100px 0px; */
+    padding-top: 100px;
+}
+.footer-header{
+    color: #fffcfc;
+    font-size: 20px;
+    font-weight: bold;
+}
+.footer-para{
+    font-size: 15px;
+    color: var(--para-clr);
+}
+.footer-para span{
+    color: #fff;
+    font-weight: bold;
+}
+.footer-second-para{
+    border-bottom: 0.5px solid #464545;
+    transition: 0.5s;
+}
+.footer-second-para:hover{
+  color: #fff;
+  translate: 3px;
+  transition: 0.5s;
+}
+.footer-second-para2:hover{
+    color: #fff;
+    translate: 3px;
+    transition: 0.5s;
+  }
+.footer-para-div{
+    border-bottom: 0.5px solid #464545;
+}
+.footer-para-div:hover{
+    color: #fff;
+}
+.footer-para-div2:hover{
+    color: #fff;
+}
+.last-text{
+    border-top: 0.5px solid #464545;
+    color: var(--para-clr);
+}
 
 
 
@@ -525,6 +648,9 @@ padding: 100px 0px;
     .intro-para span{
         font-size: 55px;
     }
+    .mission-div{
+        padding-top: 0px;
+    }
 }
 
 @media only screen and (max-width: 768px){
@@ -543,6 +669,19 @@ padding: 100px 0px;
         height: 350px;
         width: 200px;
      }
+     .testi-icon{
+        font-size: 30px;
+      }
+      .tes-p{
+        font-size: 20px;
+        padding-top: 15px;
+      }
+      .name{
+        font-size: 15px;
+      }
+      .testi-div{
+        padding: 80px 0px;
+      }
 }
 @media only screen and (max-width: 576px){
     .home-desc{
@@ -581,6 +720,22 @@ padding: 100px 0px;
         padding: 4px;
         margin: 2px;
       }     
+}
+
+@media only screen and (max-width: 430px){
+    .testi-icon{
+        font-size: 25px;
+      }
+      .tes-p{
+        font-size: 16px;
+        padding-top: 15px;
+      }
+      .name{
+        font-size: 12px;
+      }
+      .testi-div{
+        padding: 20px 0px;
+      }
 }
 
 
