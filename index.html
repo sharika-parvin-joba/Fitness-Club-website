@@ -1,0 +1,558 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="index.css">
+  <title>FitClub</title>
+  <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <!-- owl carousel cdn -->
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+    integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+
+  <!-- swiperjs -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <section>
+    <nav class="navbar navbar-expand-lg nagbar-bg fixed-top">
+      <div class="container">
+        <div class="d-flex justify-content-center align-items-center">
+          <img src="./images/logo.png" alt="logo">
+
+          <div class="d-flex flex-column fw-bold fst-italic">
+            <p class="text-white fitclt-text">FITCLUB </p>
+            <p class="p-clr">GYM and YOGA</p>
+          </div>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <div class="d-flex flex-column justify-content-center align-items-center">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav navbar-list me-auto mb-2 mb-lg-0 mx-auto fw-bold">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">HOME</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link links" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                ABOUT <i class="fa-solid fa-caret-down p-1"></i>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link  links" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                CLASSES<i class="fa-solid fa-caret-down p-1"></i>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link links">BLOG</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link links">SHOP</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link links">CONTACT US</a>
+            </li>
+          </ul>
+          <a class="join-mem-btn" href="">JOIN MEMBERSHIP</a>
+        </div>
+      </div>
+    </nav>
+  </section>
+
+  <!-- Home -->
+  <section>
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item items active">
+          <img src="./images/home1.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="home-desc">
+          <p class="title1">STAY FIT, STAY HEALTHY</p>
+          <p class="title2">GET BACK IN SHAPE NOW!</p>
+          <p class="para1">Train in an award winning gym that has been featured in multiple
+            magazines for offering excellent fitness classes</p>
+          <div class="btns">
+            <a href="" class="btn1 md-m-2">SEE ALL CLASSES</a>
+            <a href="" class="btn2 md-m-2"><span class="text">JOIN MEMBERSHIP</span></a>
+          </div>
+        </div>
+        <div class="carousel-item items">
+          <img src="./images/home2.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="home-desc">
+          <p class="title1">STAY FIT, STAY HEALTHY</p>
+          <p class="title2">GET BACK IN SHAPE NOW!</p>
+          <p class="para1">Train in an award winning gym that has been featured in multiple
+            magazines for offering excellent fitness classes</p>
+          <div class="btns">
+            <a href="" class="btn1 md-m-2">SEE ALL CLASSES</a>
+            <a href="" class="btn2 md-m-2"><span class="text">JOIN MEMBERSHIP</span></a>
+          </div>
+        </div>
+        <div class="carousel-item items">
+          <img src="./images/home3.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="home-desc">
+          <p class="title1">STAY FIT, STAY HEALTHY</p>
+          <p class="title2">GET BACK IN SHAPE NOW!</p>
+          <p class="para1">Train in an award winning gym that has been featured in multiple
+            magazines for offering excellent fitness classes</p>
+          <div class="btns">
+            <a href="" class="btn1">SEE ALL CLASSES</a>
+            <a href="" class="btn2"><span class="text">JOIN MEMBERSHIP</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Introduction -->
+  <section class="intro-section">
+    <div class="container mx-auto">
+      <div class="row intro-row-div">
+        <div class="col-lg-4 col-md-6 ">
+          <div class="intro-logo">
+            <img src="./images/intro.png" alt="" class="img-fluid">
+            <p class="intro-para mx-5">INTRODUCTION <span>FITCLUB</span></p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mission-div">
+          <img src="./images/intro1.jpg" alt="">
+          <p class="intro-p">MISSION</p>
+          <p class="p1">Our purpose is to pass on empowering knowledge and training guidance in order to have a
+            positive impact on the health and fitness of everyone we work with.</p>
+          <p class="p1"> To provide a personalised health and fitness service that unlocks every individual’s true
+            potential so they can achieve their desired goals.</p>
+        </div>
+        <div class="col-lg-4 story-div">
+          <img src="./images/intro2.jpg" alt="">
+          <p class="intro-p">STORY</p>
+          <p class="p1">Our main focus at Fit CLub is functional training because of the proven benefits. With an
+            emphasis on mobility, strength, and conditioning, the benefits of functional training differ from other
+            workouts because of the way it targets your body.</p>
+
+        </div>
+      </div>
+      <div class="row">
+        <p class="intro-p">OUR ACTIVITIES</p>
+        <div class="col-md-6 p-4">
+          <div class="intro-img-div">
+            <img src="./images/intro5.jpg" alt="" class="">
+            <div class="intro-img-div-desc">
+              <a href="">MORE ABOUT US<i class="fa-solid fa-angle-right fa-beat mx-2"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 p-4">
+          <div class="intro-img-div">
+            <img src="./images/intro4.jpg" alt="" class="">
+            <div class="intro-img-div-desc">
+              <a href="">MORE ABOUT US<i class="fa-solid fa-angle-right fa-beat mx-2"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- 3rd part -->
+  <section class="third-section">
+    <div class="container mx-auto">
+      <div class="row">
+        <div class="col-md-3 col-sm-6 col-12 text-center third-sec-col fst-italic">
+          <i class="fa-solid fa-map-location-dot pb-4 fs-1 third-sec-logo"></i>
+          <p class="t-s-title a">OUR GYM LOCATION</p>
+          <p class="third-sec-para a">Dhanmondi,Jhigatola</p>
+          <p class="third-sec-para a">Dhaka-1209</p>
+          <p class="third-sec-para mb-3 a">09365718425</p>
+          <a class="t-s-a a" href="">GET IN TOUCH<i class="fa-solid fa-arrow-right-long t-s-icon mx-2"></i></a>
+        </div>
+        <div class="col-md-3 col-sm-6 col-12 text-center third-sec-col fst-italic">
+          <i class="fa-solid fa-diamond-turn-right pb-4 fs-1 third-sec-logo"></i>
+          <p class="t-s-title a">GET THE DIRECTION</p>
+          <p class="third-sec-para a">Dhanmondi,Jhigatola</p>
+          <p class="third-sec-para a">Dhaka-1209</p>
+          <p class="third-sec-para mb-3 a">Use Google Map</p>
+          <a class="t-s-a a" href="">GET DIRECTION<i class="fa-solid fa-arrow-right-long  t-s-icon mx-2"></i></a>
+        </div>
+        <div class="col-md-3 col-sm-6 col-12 text-center third-sec-col fst-italic">
+          <i class="fa-solid fa-map-location-dot pb-4 fs-1 third-sec-logo"></i>
+          <p class="t-s-title a">WEEKLY CLASSES</p>
+          <p class="third-sec-para a">We provide</p>
+          <p class="third-sec-para a">Wide Rande of </p>
+          <p class="third-sec-para mb-3 a">GYM Class</p>
+          <a class="t-s-a a" href="">SEE THE CLASSES<i class="fa-solid fa-arrow-right-long t-s-icon mx-2"></i></a>
+        </div>
+        <div class="col-md-3 col-sm-6 col-12 text-center third-sec-col fst-italic">
+          <i class="fa-solid fa-calendar-check pb-4 fs-1 third-sec-logo"></i>
+          <p class="t-s-title a">FREE 7 DAY PASS</p>
+          <p class="third-sec-para a">No Appointment Needed</p>
+          <p class="third-sec-para a">Just Sign IN</p>
+          <p class="third-sec-para mb-3 a">And Get Your Gym Pass</p>
+          <a class="t-s-a a" href="">CLAIM YOUR PASS<i class="fa-solid fa-arrow-right-long t-s-icon mx-2"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- part four -->
+  <section class="four-section">
+    <div class="container mx-auto">
+      <div class="row">
+        <div class="col-lg-3 col-md-4 col-12">
+          <p class="wide-range">A WIDE RANGE OF</p>
+          <p class="f-s-p-2">FITNESS CLASSES</p>
+        </div>
+        <div class="col-lg-6 col-12 f-s-col-2 px-3">
+          <span>Staying motivated</span> can always be a challenge, but with a wide variety of fitness classes available
+          across gym you’ll find the perfect way to keep active. Whatever you are looking to achieve we have classes for
+          everyone
+        </div>
+        <div class="col-lg-3 col-12 mt-lg-0 mt-3">
+          <a href="" class="btn2"><span class="text">SEE ALL PROGRAMS</span></a>
+        </div>
+      </div>
+
+      <div class="row py-5">
+        <div class="col-xl-4 col-md-6 col-12">
+          <div class="fp-img-div">
+            <div class="apply-filter">
+              <img src="./images/fp-img1.jpg" alt="" class="img-fluid">
+            </div>
+            <p class="mb-0 py-2 fw-bold fs-5 text-white fp-img-b-p">FITNESS & GYM</p>
+            <div class="overflow-part">
+              <div class="d-flex justify-content-center align-items-center fp-div-icons">
+                <i class="fa-brands fa-gripfire"></i>
+                <i class="fa-brands fa-gripfire"></i>
+                <i class="fa-brands fa-gripfire"></i>
+                <i class="fa-brands fa-gripfire"></i>
+                <i class="fa-brands fa-gripfire"></i>
+              </div>
+              <div class="text-center">
+                <p class="mb-0 py-2 fw-bold fs-5 text-white">FITNESS & GYM</p>
+                <p class="fp-p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat, sunt.</p>
+                <a href="" class="learn-more">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-md-6 col-12">
+          <div class="fp-img-div">
+            <div class="apply-filter">
+              <img src="./images/fp-img2.jpg" alt="" class="img-fluid">
+            </div>
+            <p class="mb-0 py-2 fw-bold fs-5 text-white fp-img-b-p">PERSONAL TRAINER</p>
+            <div class="overflow-part">
+              <div class="d-flex justify-content-center align-items-center fp-div-icons">
+                <i class="fa-brands fa-gripfire"></i>
+                <i class="fa-brands fa-gripfire"></i>
+                <i class="fa-brands fa-gripfire"></i>
+                <i class="fa-brands fa-gripfire"></i>
+                <i class="fa-brands fa-gripfire"></i>
+              </div>
+              <div class="text-center">
+                <p class="mb-0 py-2 fw-bold fs-5 text-white">PERSONAL TRAINER</p>
+                <p class="fp-p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat, sunt.</p>
+                <a href="" class="learn-more">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-md-6 col-12">
+          <div class="fp-img-div">
+            <div class="apply-filter">
+              <img src="./images/fp-img3.jpg" alt="" class="img-fluid">
+            </div>
+            <p class="mb-0 py-2 fw-bold fs-5 text-white fp-img-b-p">YOGA TRAINING</p>
+            <div class="overflow-part">
+              <div class="d-flex justify-content-center align-items-center fp-div-icons">
+                <i class="fa-brands fa-gripfire"></i>
+                <i class="fa-brands fa-gripfire"></i>
+                <i class="fa-brands fa-gripfire"></i>
+                <i class="fa-brands fa-gripfire"></i>
+                <i class="fa-brands fa-gripfire"></i>
+              </div>
+              <div class="text-center">
+                <p class="mb-0 py-2 fw-bold fs-5 text-white">YOGA TRAINING</p>
+                <p class="fp-p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat, sunt.</p>
+                <a href="" class="learn-more">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4  col-md-6 col-12">
+          <div class="fp-img-div">
+            <div class="apply-filter">
+              <img src="./images/fp-img4.jpg" alt="" class="img-fluid">
+            </div>
+            <p class="mb-0 py-2 fw-bold fs-5 text-white fp-img-b-p">GROUP ACTIVITIES</p>
+            <div class="overflow-part">
+              <div class="d-flex justify-content-center align-items-center fp-div-icons">
+                <i class="fa-brands fa-gripfire"></i>
+                <i class="fa-brands fa-gripfire"></i>
+                <i class="fa-brands fa-gripfire"></i>
+                <i class="fa-brands fa-gripfire"></i>
+                <i class="fa-brands fa-gripfire"></i>
+              </div>
+              <div class="text-center">
+                <p class="mb-0 py-2 fw-bold fs-5 text-white">GROUP ACTIVITIES</p>
+                <p class="fp-p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat, sunt.</p>
+                <a href="" class="learn-more">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="">
+        <marquee scrollamount="15" behavior="scroll" direction="left" class="scroll-left-text2">A healthy lifestyle is a
+          way of living that lowers the risk of being seriously ill or dying early</marquee>
+        <marquee scrollamount="12" behavior="scroll" direction="left" class="scroll-left-text">BE HEALTHY <span
+            class="mx-5">DO EXERCISE REGULARLY</span>
+          <span class="mx-5"> YOGA CAN GIVE YOU INNER PEACE</span>
+          <span class="mx-5">JOIN US- GET A MEMBERSHIP PASS</span>
+        </marquee>
+      </div>
+    </div>
+  </section>
+
+  <!-- part five-teams -->
+
+  <section class="five-section">
+    <div class="container mx-auto">
+      <div class="row">
+        <div class="col-md-6 col-12">
+          <p class="wide-range">WE'RE MAKING PEOPLE</p>
+          <p class="five-p-para py-2">HEALTHIER, HAPPIER &
+            STRONGER. JOIN US!</p>
+          <div class="py-3">
+            <a href="" class="btn2 five-p-btn"><span class="text">DISCOVER MORE ABOUT US</span></a>
+          </div>
+        </div>
+        <div class="col-md-6 col-12 five-p-para2">
+          <p> We are confident that our staff and facility can help you to reach your fitness goals. Whether you’re a
+            beginner or a pro, we’re here to help. After spending time in our facility and with our team we want our
+            members to walk out of our doors after a workout and feel like they are a better version of themselves.</p>
+          <div class="row py-4 five-para-row">
+            <div class="col-md-6 col-12">
+              <p><i class="fa-regular fa-circle-check mx-2 fs-4" style="color: #39af39;"></i>You will achieve your goals
+              </p>
+              <p><i class="fa-regular fa-circle-check mx-2 fs-4" style="color: #39af39;"></i>You’ll gain confidence</p>
+              <p><i class="fa-regular fa-circle-check mx-2 fs-4" style="color: #39af39;"></i>You’ll learn something new
+              </p>
+            </div>
+            <div class="col-md-6 col-12">
+              <p><i class="fa-regular fa-circle-check mx-2 fs-4" style="color: #39af39;"></i>You’ll gain confidence</p>
+              <p><i class="fa-regular fa-circle-check mx-2 fs-4" style="color: #39af39;"></i>You’ll learn something new
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="row five-section-para2">
+        <!-- Swiper -->
+
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="swiper-img-div">
+                <div class="swiper-img">
+                  <img src="./images/person1.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="d-flex justify-content-center align-items-center five-icons">
+                  <i class="fa-brands social-media-icons p-2 fa-facebook"></i>
+                  <i class="fa-brands social-media-icons p-2 fa-twitter"></i>
+                  <i class="fa-brands social-media-icons p-2 fa-instagram"></i>
+                </div>
+              </div>
+              <div>
+                <p class="mb-0 fw-bold pt-3">Kate Persony</p>
+                <p class="work-name">Personal Trainer</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="swiper-img-div">
+                <div class="swiper-img">
+                  <img src="./images/person2.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="d-flex justify-content-center align-items-center five-icons">
+                  <i class="fa-brands social-media-icons p-2 fa-facebook"></i>
+                  <i class="fa-brands social-media-icons p-2 fa-twitter"></i>
+                  <i class="fa-brands social-media-icons p-2 fa-instagram"></i>
+                </div>
+              </div>
+              <div>
+                <p class="mb-0 fw-bold pt-3">Neyy delson</p>
+                <p class="work-name">Boxer</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="swiper-img-div">
+                <div class="swiper-img">
+                  <img src="./images/person3.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="d-flex justify-content-center align-items-center five-icons">
+                  <i class="fa-brands social-media-icons p-2 fa-facebook"></i>
+                  <i class="fa-brands social-media-icons p-2 fa-twitter"></i>
+                  <i class="fa-brands social-media-icons p-2 fa-instagram"></i>
+                </div>
+              </div>
+              <div>
+                <p class="mb-0 fw-bold pt-3">kacen jene</p>
+                <p class="work-name">Karate Trainer</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="swiper-img-div">
+                <div class="swiper-img">
+                  <img src="./images/person4.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="d-flex justify-content-center align-items-center five-icons">
+                  <i class="fa-brands social-media-icons p-2 fa-facebook"></i>
+                  <i class="fa-brands social-media-icons p-2 fa-twitter"></i>
+                  <i class="fa-brands social-media-icons p-2 fa-instagram"></i>
+                </div>
+              </div>
+              <div>
+                <p class="mb-0 fw-bold pt-3">Jenny Kim</p>
+                <p class="work-name">Special Trainer</p>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="swiper-img-div">
+                <div class="swiper-img">
+                  <img src="./images/person7.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="d-flex justify-content-center align-items-center five-icons">
+                  <i class="fa-brands social-media-icons p-2 fa-facebook"></i>
+                  <i class="fa-brands social-media-icons p-2 fa-twitter"></i>
+                  <i class="fa-brands social-media-icons p-2 fa-instagram"></i>
+                </div>
+              </div>
+              <div>
+                <p class="mb-0 fw-bold pt-3">Kateu Persony</p>
+                <p class="work-name">Personal Trainer</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="swiper-img-div">
+                <div class="swiper-img">
+                  <img src="./images/person8.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="d-flex justify-content-center align-items-center five-icons">
+                  <i class="fa-brands social-media-icons p-2 fa-facebook"></i>
+                  <i class="fa-brands social-media-icons p-2 fa-twitter"></i>
+                  <i class="fa-brands social-media-icons p-2 fa-instagram"></i>
+                </div>
+              </div>
+              <div>
+                <p class="mb-0 fw-bold pt-3">Kate Persony</p>
+                <p class="work-name">Yoga Trainer</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="swiper-img-div">
+                <div class="swiper-img">
+                  <img src="./images/person9.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="d-flex justify-content-center align-items-center five-icons">
+                  <i class="fa-brands social-media-icons p-2 fa-facebook"></i>
+                  <i class="fa-brands social-media-icons p-2 fa-twitter"></i>
+                  <i class="fa-brands social-media-icons p-2 fa-instagram"></i>
+                </div>
+              </div>
+              <div>
+                <p class="mb-0 fw-bold pt-3">Kate Persony</p>
+                <p class="work-name">Body Builder Trainer</p>
+              </div>
+            </div>
+          </div>
+        </div>
+</div>
+</div>
+</section>
+
+
+<!-- testimonial -->
+<section class="testimonial">
+  <div class="container mx-auto">
+<h1>TESTIMONIAL</h1>
+  </div>
+</section>
+
+
+
+  <!-- Initialize Swiper -->
+
+
+  <script src="index.js"></script>
+
+  <script src="https://kit.fontawesome.com/e36ede94fd.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 4,
+      spaceBetween: 40,
+      loop: true,
+      fade: true,
+      autoplay: {
+        delay: 2000,
+        // disableOnInteraction:false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      breakpoints: {
+        0: {
+          slidesPerView: 1,
+        },
+        350: {
+          slidesPerView: 2,
+        },
+        768: {
+          slidesPerView: 3,
+        },
+        1200: {
+          slidesPerView: 4,
+        }
+      }
+    });
+  </script>
+</body>
+
+</html>
