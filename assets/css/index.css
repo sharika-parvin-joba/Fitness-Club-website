@@ -194,7 +194,10 @@ background-color: var(--clr-2);
 }
 /* INTRO */
 .intro-row-div{
-    padding: 50px 0px;
+    /* padding: 50px 0px; */
+}
+.our-gym{
+    padding-bottom: 100px;
 }
 .intro-logo{
     position: relative;
@@ -202,13 +205,21 @@ background-color: var(--clr-2);
 .intro-logo img{
     transition: 1s;
 }
-
+.ab-us{
+    /* font-size: 40px; */
+    font-weight: bold;
+    color: #fff;
+    padding-top: 100px;
+}
+.ab-us-para{
+    color: var(--para-clr);
+    font-size: 18px;
+}
 .intro-logo:hover img{
 translate: 50px;
 transition: 1s;
 }
 .intro-para{
-    /* position: absolute; */
     text-shadow: 0 0 3px #3b3131, 0 0 5px #0b9c4d;
     bottom: 5%;
     font-size: 40px;
@@ -226,7 +237,7 @@ transition: 1s;
     padding: 20px 0px;
 }
 .mission-div{
-    padding-top: 180px;
+    padding-top: 150px;
     color: var(--para-clr);
 }
 .story-div{
@@ -669,6 +680,9 @@ padding: 100px 0px;
         height: 350px;
         width: 200px;
      }
+     .ab-us{
+        padding-top:0px;
+    }
      .testi-icon{
         font-size: 30px;
       }
@@ -736,6 +750,44 @@ padding: 100px 0px;
       .testi-div{
         padding: 20px 0px;
       }
+      .fitclt-text{
+       font-size: 15px;
+      }
+      .p-clr{
+        font-size: 13px;
+      }
+      .main-logo-img{
+        height: 30px;
+        width: 35px;
+      }
+      .title1{
+        font-size: 15px;
+      }
+      .title2{
+        font-size: 13px;
+      }
+      .para1{
+        font-size: 11px;
+        margin-bottom: 1px;
+      }
+      .btn1{
+        font-size: 11px;
+        padding: 3px 2px;
+      }
+      .btn2{
+        font-size: 11px;
+        padding: 3px 2px;
+      }
+      .btns{
+        padding: 0;
+        margin: 0;
+      }
+      .home-desc{
+        line-height:normal;
+      }
 }
+/* @media only screen and (max-width: 430px){
+
+} */
 
 
