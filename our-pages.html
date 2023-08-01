@@ -1,0 +1,415 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./assets/css/index.css">
+  <title>FitClub</title>
+  <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <!-- owl carousel cdn -->
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+    integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+
+  <!-- swiperjs -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <section>
+    <nav class="navbar navbar-expand-lg nagbar-bg fixed-top">
+      <div class="container">
+        <div class="d-flex justify-content-center align-items-center">
+          <img src="./assets/images/logo.png" alt="logo" class="main-logo-img">
+
+          <div class="d-flex flex-column fw-bold fst-italic">
+            <p class="text-white fitclt-text">FITCLUB </p>
+            <p class="p-clr">GYM and YOGA</p>
+          </div>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <div class="d-flex flex-column justify-content-center align-items-center">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav navbar-list me-auto mb-2 mb-lg-0 mx-auto fw-bold">
+            <li class="nav-item">
+              <a class="nav-link links" aria-current="page" href="index.html">HOME</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link active" href="about.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                ABOUT <i class="fa-solid fa-caret-down p-1"></i>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="about.html">ABOUT US</a></li>
+                <li><a class="dropdown-item" href="our-trainer.html">OUR TRAINERS</a></li>
+                <li><a class="dropdown-item" href="our-pages.html">OUR PACKAGES</a></li>
+                <!-- <li>
+                  <hr class="dropdown-divider">
+                </li> -->
+                <li><a class="dropdown-item" href="faq.html">FAQ PAGE</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link  links" href="classes.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                CLASSES<i class="fa-solid fa-caret-down p-1"></i>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="classes.html">CLASSES</a></li>
+                <li><a class="dropdown-item" href="personal training.html">PERSONAL TRAINING</a></li>
+                <li><a class="dropdown-item" href="yoga-class.html">YOGA CLASSES</a></li>
+                <!-- <li>
+                  <hr class="dropdown-divider">
+                </li> -->
+                <li><a class="dropdown-item" href="fitness.html">FITNESS CLASSES</a></li>
+                <li><a class="dropdown-item" href="boxing-class.html">BOXING CLASSES</a></li>
+                <li><a class="dropdown-item" href="karate.html">KARATE CLASSES</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link links" href="blog.html">BLOG</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link links" href="shop.html">SHOP</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link links" href="contact.html">CONTACT US</a>
+            </li>
+          </ul>
+          <a class="join-mem-btn" href="contact.html">JOIN MEMBERSHIP</a>
+        </div>
+      </div>
+    </nav>
+  </section>
+
+  <!-- Home -->
+  <section>
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item items active">
+          <img src="./assets/images/members.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="home-desc">
+          <p class="title1">OUR PACKAGES</p>
+          <p class="title2">KNOW ABOUT US IN A BETTER WAY</p>
+         <p class="para1">Train in an award winning gym that has been featured in multiple
+            magazines for offering excellent fitness classes</p>
+          <div class="btns">
+            <a href="classes.html" class="btn1 md-m-2">SEE ALL CLASSES</a>
+            <a href="contact.html" class="btn2 md-m-2"><span class="text">JOIN MEMBERSHIP</span></a>
+          </div> 
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- packages -->
+
+  <section class="packages">
+    <div class="container mx-auto d-flex align-items-center justify-content-center">
+    <div class="row">
+        <div class="col-md-4 col-12 packages-col">
+         <p class="pass-type">GYM PASS — SIMPLE</p>
+         <p class="pass-type-para">With our standard flexible membership you get unlimited access to all our clubs nationwide.</p>
+         <p class="pass-type-para"><span>$12.95</span> / PER MONTH</p>
+         <div class="col-12">
+            <p><i class="fa-regular fa-circle-check mx-2 fs-4" style="color: #39af39;"></i>You can Train Unlimited!</p>
+            <p><i class="fa-regular fa-circle-check mx-2 fs-4" style="color: #39af39;"></i>Free Gym Classes</p>
+            <p><i class="fa-regular fa-circle-check mx-2 fs-4" style="color: #39af39;"></i>Multi - Gym Access</p>
+            <p><i class="fa-solid fa-circle-xmark mx-2 fs-4" style="color: #d8dadf;"></i>Get our Fitness App</p>
+            <p><i class="fa-solid fa-circle-xmark mx-2 fs-4" style="color: #d8dadf;"></i>Fitness Composition Tracking</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-12 packages-col packages-col-medium">
+           <div class="package-medium">
+            <p class="pass-type">GYM PASS — STANDARD</p>
+            <p class="pass-type-para">With our standard flexible membership you get unlimited access to all our clubs nationwide.</p>
+            <p class="pass-type-para"><span>$24.95</span> / PER MONTH</p>
+            <div class="col-12">
+               <p><i class="fa-regular fa-circle-check mx-2 fs-4" style="color: #39af39;"></i>You can Train Unlimited!</p>
+               <p><i class="fa-regular fa-circle-check mx-2 fs-4" style="color: #39af39;"></i>Free Gym Classes</p>
+               <p><i class="fa-regular fa-circle-check mx-2 fs-4" style="color: #39af39;"></i>Multi - Gym Access</p>
+               <p><i class="fa-regular fa-circle-check mx-2 fs-4" style="color: #39af39;"></i>Get our Fitness App</p>
+               <p><i class="fa-regular fa-circle-check mx-2 fs-4" style="color: #39af39;"></i>Fitness Composition Tracking</p>
+             </div>
+           </div>
+        </div>
+        <div class="col-md-4 col-12 packages-col">
+            <p class="pass-type">GYM PASS — DIAMOND</p>
+            <p class="pass-type-para">With our standard flexible membership you get unlimited access to all our clubs nationwide.</p>
+            <p class="pass-type-para"><span>$50.95</span> / PER MONTH</p>
+            <div class="col-12">
+               <p><i class="fa-regular fa-circle-check mx-2 fs-4" style="color: #39af39;"></i>You can Train Unlimited!</p>
+               <p><i class="fa-regular fa-circle-check mx-2 fs-4" style="color: #39af39;"></i>Free Gym Classes</p>
+               <p style="color: #36b538; font-weight: bold;"><i class="fa-regular fa-face-smile-beam mx-2 fs-4" style="color: #36b538;"></i>Everything from Standard Pass</p>
+               <p style="color: #36b538; font-weight: bold;"><i class="fa-regular fa-face-smile-beam mx-2 fs-4" style="color: #36b538;"></i>Bring a friend 4 times a month</p>
+    
+             </div>
+        </div>
+    </div>
+    </div>
+  </section>
+
+  <!-- Get offer -->
+  <section class="get-offer">
+    <div class="container mx-auto">
+      <p class="wide-range fs-1 fw-bold text-center">MEMBERSHIPS START AS LOW AS</p>
+      <p class="fs-1 fw-bold text-center text-white">$9.99 / MONTH, FOREAL.</p>
+      <p class="col-5 mx-auto text-center get-offer-para">With our membership you get access to all our clubs nationwide,
+        over dozens of classes to choose from, train with the greatest equipment</p>
+
+    <div class="row py-5">
+        <div class="col-lg-6 col-12 get-offer-main-div">
+            <div class="row row-1 m-2">
+                <div class="col-lg-8 col-12 p-3">
+                   <p class="fs-3 fw-bold text-white mb-0">6 MONTHS MEMBERSHIP</p>
+                   <p class="row-1-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, rerum?</p>
+                </div>
+                <div class="col-md-4 col-12">
+                 <p class="row-1-rate">$40.68</p>
+                 <p class="row-1-para">per month</p>
+                </div>
+            </div>
+            <div class="row row-1 get-offer-abs-div m-2">
+                <div class="col-lg-8 col-12 p-3 d-flex justify-content-center align-items-center">
+                   <p class="fs-5 fw-bold text-white mb-0">SELECT 12 MONTHS MEMBERSHIP<i class="fa-solid fa-greater-than"></i></p>
+                </div>
+                <div class="col-lg-4 col-12">
+                 <p class="row-1-rate">$40.68</p>
+                 <p class="row-1-para">per month</p>
+                </div>
+            </div>
+          </div>
+      <div class="col-lg-6 col-12 get-offer-main-div get-offer-main-div-rela">
+        <div class="row m-2 get-offer-main-div-abs">
+            <div class="col-lg-8 col-12 p-3">
+               <p class="fs-3 fw-bold text-black mb-0">1 YEAR MEMBERSHIP</p>
+               <p class="row-1-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, rerum?</p>
+            </div>
+            <div class="col-md-4 col-12">
+             <p class="row-1-rate">$50.68</p>
+             <p class="row-1-para">per month</p>
+            </div>
+        </div>
+        <div class="row  get-offer-abs-div row-2 m-2">
+            <div class="col-lg-8 col-12 p-3 d-flex justify-content-center align-items-center">
+               <p class="fs-5 fw-bold select-12 mb-0">SELECT 12 MONTHS MEMBERSHIP<i class="fa-solid fa-greater-than"></i></p>
+            </div>
+            <div class="col-lg-4 col-12">
+             <p class="row-1-rate">$50.68</p>
+             <p class="row-1-para">per month</p>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="row"> 
+        <div class="col-md-4 col-12 get-offer-main-div ">
+          
+                <div class="row row-1 p-3 m-1">
+                    <div class="col-lg-7 col-12 p-3">
+                       <p class="fs-3 fw-bold text-white mb-0">3 MONTHS PASS</p>
+                       <p class="row-1-para">Lorem ipsum dolor </p>
+                    </div>
+                    <div class="col-lg-5 col-12">
+                     <p class="row-1-rate">$03.68</p>
+                     <p class="row-1-para">per month</p>
+                    </div>
+                </div>
+                <div class="row row-1 p-3 m-1 get-offer-abs-div">
+                    <div class="col-lg-7 col-12 p-3 d-flex justify-content-center align-items-center">
+                       <p class="fs-5 fw-bold text-white mb-0">SELECT PLAN<i class="fa-solid fa-greater-than"></i></p>
+                    </div>
+                    <div class="col-lg-5 col-12">
+                     <p class="row-1-rate">$03.68</p>
+                     <p class="row-1-para">per month</p>
+                    </div>
+                </div>
+             
+        
+        </div>
+        <div class="col-md-4 col-12 get-offer-main-div">
+          
+            <div class="row row-1 p-3 m-1">
+                <div class="col-lg-7 col-12 p-3">
+                   <p class="fs-3 fw-bold text-white mb-0">6 MONTHS PASS</p>
+                   <p class="row-1-para">Lorem ipsum dolor </p>
+                </div>
+                <div class="col-lg-5 col-12">
+                 <p class="row-1-rate">$10.68</p>
+                 <p class="row-1-para">per month</p>
+                </div>
+            </div>
+            <div class="row row-1 get-offer-abs-div p-3 m-1">
+                <div class="col-lg-7 col-12 p-3 d-flex justify-content-center align-items-center">
+                   <p class="fs-5 fw-bold text-white mb-0">SELECT PLAN<i class="fa-solid fa-greater-than"></i></p>
+                </div>
+                <div class="col-lg-5 col-12">
+                 <p class="row-1-rate">$10.68</p>
+                 <p class="row-1-para">per month</p>
+                </div>
+            </div>
+         
+    
+    </div>
+    <div class="col-md-4 col-12 get-offer-main-div">
+          
+        <div class="row row-1 p-3 m-1">
+            <div class="col-lg-7 col-12 p-3">
+               <p class="fs-3 fw-bold text-white mb-0">12 MONTHS PASS</p>
+               <p class="row-1-para">Lorem ipsum dolor </p>
+            </div>
+            <div class="col-lg-5 col-12">
+             <p class="row-1-rate">$20.50</p>
+             <p class="row-1-para">per month</p>
+            </div>
+        </div>
+        <div class="row row-1 get-offer-abs-div p-3 m-1">
+            <div class="col-lg-7 col-12 p-3 d-flex justify-content-center align-items-center">
+               <p class="fs-5 fw-bold text-white mb-0">SELECT PLAN<i class="fa-solid fa-greater-than"></i></p>
+            </div>
+            <div class="col-lg-5 col-12">
+             <p class="row-1-rate">$20.50</p>
+             <p class="row-1-para">per month</p>
+            </div>
+        </div>
+     
+
+</div>
+      </div>
+    </div>
+  </section>
+
+
+<!-- footer -->
+<footer class="footer">
+<div class="container mx-auto">
+<div class="row">
+  <div class="col-lg-3 col-sm-6 col-12 px-3">
+    <p class="footer-header py-3">ABOUT US</p>
+    <p class="footer-para">FitClub is a premium WordPress theme built for the  <span>Gym & Fitness</span>  industry but is suitable for all that provide Sports & Nutrition services. 
+      Novice or experienced, this theme will suit your needs to create a website that is build to last.</p>
+      <div class="my-4">
+        <a href="contact.html" class="btn2 five-p-btn "><span class="text">GET MEMBERSHIP</span></a>
+      </div>
+  </div>
+  <div class="col-lg-3 col-sm-6 col-12">
+    <p class="footer-header py-3">FITNESS CLASSES</p>
+    <div class="footer-para">
+     <p class="fw-bold footer-second-para pb-2"><i class="fa-solid fa-arrow-right mx-1"></i>View all Classes</p>
+     <p class="fw-bold footer-second-para pb-2"><i class="fa-solid fa-arrow-right mx-1"></i>Weekly Classes</p>
+     <p class="fw-bold footer-second-para pb-2"><i class="fa-solid fa-arrow-right mx-1"></i>Fitness & Gym</p>
+     <p class="fw-bold footer-second-para pb-2"><i class="fa-solid fa-arrow-right mx-1"></i>Boxing Class</p>
+     <p class="fw-bold footer-second-para2 pb-2"><i class="fa-solid fa-arrow-right mx-1"></i>Personal Training</p>
+    </div>
+  </div>
+  <div class="col-lg-3 col-sm-6 col-12">
+    <p class="footer-header py-3">CONTACT DETAILS</p>
+    <div class="footer-para">
+     <p class="fw-bold footer-second-para pb-2"><i class="fa-solid fa-earth-asia fs-4 mx-1"></i></i>Dhaka, Bangladesh</p>
+     <p class="fw-bold footer-second-para pb-2"><i class="fa-solid fa-phone  fs-4 mx-1"></i>1824790101</p>
+     <p class="fw-bold footer-second-para2 pb-2"><i class="fa-solid fa-envelope-circle-check fs-4 mx-1"></i>sharikajoba@gmail.com</p>
+    </div>
+  </div>
+  <div class="col-lg-3 col-sm-6 col-12">
+    <p class="footer-header py-3">OPENING HOURS</p>
+    <div class="footer-para ">
+     <div class="d-flex align-items-center justify-content-between footer-para-div pb-2">
+      <div>Monday</div>
+      <div>07:00 - 22:00</div>
+     </div>
+     <div class="d-flex align-items-center justify-content-between footer-para-div pb-2">
+      <div>Tuesday</div>
+      <div>07:00 - 22:00</div>
+     </div>
+     <div class="d-flex align-items-center justify-content-between footer-para-div pb-2">
+      <div>Wednesday</div>
+      <div>07:00 - 22:00</div>
+     </div>
+     <div class="d-flex align-items-center justify-content-between footer-para-div pb-2">
+      <div>Thursday</div>
+      <div>07:00 - 22:00</div>
+     </div>
+     <div class="d-flex align-items-center justify-content-between footer-para-div pb-2">
+      <div>Friday</div>
+      <div class="fw-bold">CLOSED</div>
+     </div>
+     <div class="d-flex align-items-center justify-content-between footer-para-div pb-2">
+      <div>Saturday</div>
+      <div class="fw-bold">CLOSED</div>
+     </div>
+     <div class="d-flex align-items-center justify-content-between footer-para-div2 pb-2">
+      <div>Sunday</div>
+      <div>07:00 - 22:00</div>
+     </div>
+    </div>
+  </div>
+</div>
+</div>
+<p class="mb-0 text-center py-2 last-text">copyright &copy; 2023 by Sharika Parvin Joba</p>
+</footer>
+
+
+
+  <!-- Initialize Swiper -->
+
+
+  <script src="./assets/js/index.js"></script>
+
+  <script src="https://kit.fontawesome.com/e36ede94fd.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 4,
+      spaceBetween: 40,
+      loop: true,
+      fade: true,
+      autoplay: {
+        delay: 2000,
+        // disableOnInteraction:false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      breakpoints: {
+        0: {
+          slidesPerView: 1,
+        },
+        350: {
+          slidesPerView: 2,
+        },
+        768: {
+          slidesPerView: 3,
+        },
+        1200: {
+          slidesPerView: 4,
+        }
+      }
+    });
+    var swiper2 = new Swiper(".mySwiper2", {
+      loop: true,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+</body>
+
+</html>
