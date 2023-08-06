@@ -1,8 +1,4 @@
-
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
-
 :root{
    --navbar:rgb(95, 83, 83); 
    --section:rgb(0, 0, 0);
@@ -10,6 +6,10 @@
    --clr-1:rgb(59, 197, 59);
    --clr-2:rgb(25, 156, 25);
    --swiper-navigation-size: 25px;
+}
+.fixed-hei-wid{
+    width: 100%;
+    height: 100%;
 }
 .nagbar-bg{
 background-color: transparent;
@@ -698,6 +698,7 @@ padding: 100px 0px;
 }
 .get-offer-para{
     color: var(--para-clr);
+    font-size: 20px;
 }
 .row-1{
     background-color: #252525;
@@ -721,6 +722,7 @@ padding: 100px 0px;
 }
 .get-offer-main-div{
 position: relative;
+
 }
 .get-offer-abs-div{
 position: absolute;
@@ -728,8 +730,11 @@ top: 0;
 left: 0;
 right: 0;
 bottom: 0;
-border: 2px solid var(--clr-1);
+/* overflow: hidden; */
+/* border: 2px solid var(--clr-1); */
+/* margin: 15px; */
 visibility: hidden;
+/* padding: 20px; */
 }
 .get-offer-main-div:hover .get-offer-abs-div{
     visibility: visible;
@@ -758,13 +763,16 @@ visibility: hidden;
     content: 'BEST OFFER';
     position: absolute;
     top: -30px;
-    left:10px;
+    /* left:10px; */
     border: 2px solid var(--clr-1);
     background-color:#fff;
     color: #070707;
     padding: 5px;
     font-weight: bold;
     border-radius: 5px;
+}
+.text-grey{
+    color: rgb(99, 98, 98);
 }
 .select-12{
     color: var(--clr-1);
@@ -871,8 +879,21 @@ transition: 0.5s;
     padding: 10px 0px;
 }
 .blog-div{
+    position: relative;
     background-color:#77b12c;
 }
+.blog-divs{
+   position: absolute;
+   top: -35px;
+   left: -20px;
+   font-size: 60px;
+   color: #0B5718;
+}
+/* .blog-div::after{
+    content: "<i class="fa-solid fa-paperclip"></i>";
+    position: absolute;
+    top: 0;
+} */
 .date{
     font-size: 15px;
     color:#fff;
@@ -1129,7 +1150,10 @@ font-weight: bold;
         .i-fr{
             width: 400px;
             height: 300px;
-        }  
+        } 
+        .blog-divs{
+            font-size: 50px;
+         } 
 }
 
 @media only screen and (max-width: 430px){
